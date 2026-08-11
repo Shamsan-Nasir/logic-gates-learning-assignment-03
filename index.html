@@ -26,18 +26,18 @@
       }
     </style>
 </head>
-<body class="md:container mx-auto px-4 font-sora lg:px-35 ">
+<body class=" mx-auto px-4 font-sora ">
     <!-- header  -->
     <header>
 
         <!-- navbar -->
-    <div class="navbar bg-white">
+    <div class="navbar bg-white lg:px-18.5 ">
         <div class="navbar-start">
 
             <img src="c2-assets/logo-header.png" alt="natures platter logo">
         </div>
         <div class="navbar-center hidden lg:flex">
-            <ul class="menu menu-horizontal px-1">
+            <ul class="menu menu-horizontal px-1 text-sm">
             <li><a>Product</a></li>
             <li>
                 <a>Services</a>
@@ -46,12 +46,12 @@
             </ul>
         </div>
         <div class="navbar-end">
-            <div class="hidden lg:block">
-                <i class="fa-solid fa-magnifying-glass pr-6"></i>
-                <i class="fa-solid fa-cart-shopping pr-10"></i>
+            <div class="hidden lg:flex gap-1.5 items-center">
+                <i class="fa-solid fa-magnifying-glass pr-1"></i>
+                <i class="fa-solid fa-cart-shopping pr-2"></i>
 
-                <a class="btn border border-secondary px-7.5 py-2.5 rounded-xl">Login</a>
-                <a class="btn bg-secondary px-7.5 py-2.5 rounded-xl" >Register</a>
+                <a class="btn border border-secondary px-7.5 py-2.5 rounded-xl text-sm">Login</a>
+                <a class="btn bg-secondary px-7.5 py-2.5 rounded-xl text-sm text-white" >Register</a>
             </div>
 
             <div class="dropdown">
@@ -61,6 +61,20 @@
  
             </div>
         </div>
+    </div>
+
+    <!-- hero -->
+    <div class="bg-linear-to-b from-white to-back flex flex-col items-center justify-center pt-11.25 gap-4 ">
+        <div class="text-[28px] font-bold text-center max-w-1/2 ">
+            Freshness <span class="text-secondary">You Can</span> <br> <span class="text-secondary">Count</span> On, Prices You’ll Love!
+        </div>
+        <div class=" text-xs text-center text-[#111111] max-w-1/2">
+            Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered every day!
+        </div>
+        <div class="  border-amber-600 bg-[url(c2-assets/hero-vegetables.png)] bg-center bg-cover bg-no-repeat lg:w-10/16" >
+            <img src="c2-assets/hero-vegetables.png" alt="hero-image" class="invisible">
+        </div>
+
     </div>
     </header>   
 
