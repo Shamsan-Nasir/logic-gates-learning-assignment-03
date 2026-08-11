@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Natures Platter</title> 
+     
+    <!-- daisyui  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <!-- font awesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+     <!-- tailwind  -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    
+    <!-- google fonts  -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+    </style>
+
+    <!-- custom classes  -->
+    <style type="text/tailwindcss">
+      @theme {
+        --color-secondary: #179800;
+        --color-back: #EFEBE3;
+        --font-sora: "Sora", sans-serif;
+      }
+    </style>
+</head>
+<body class="md:container mx-auto px-4 font-sora lg:px-35 ">
+    <!-- header  -->
+    <header>
+
+        <!-- navbar -->
+    <div class="navbar bg-white">
+        <div class="navbar-start">
+
+            <img src="c2-assets/logo-header.png" alt="natures platter logo">
+        </div>
+        <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+            <li><a>Product</a></li>
+            <li>
+                <a>Services</a>
+            </li>
+            <li><a>Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="navbar-end">
+            <div class="hidden lg:block">
+                <i class="fa-solid fa-magnifying-glass pr-6"></i>
+                <i class="fa-solid fa-cart-shopping pr-10"></i>
+
+                <a class="btn border border-secondary px-7.5 py-2.5 rounded-xl">Login</a>
+                <a class="btn bg-secondary px-7.5 py-2.5 rounded-xl" >Register</a>
+            </div>
+
+            <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
+                </div>
+ 
+            </div>
+        </div>
+    </div>
+    </header>   
+
+     
+   
+</body>
+</html>
