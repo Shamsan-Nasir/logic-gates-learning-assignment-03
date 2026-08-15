@@ -26,7 +26,7 @@
       }
     </style>
 </head>
-<body class=" m-0 p-4 font-sora ">
+<body class=" m-0 py-4 font-sora ">
     <!-- header  -->
     <header>
 
@@ -82,7 +82,7 @@
 
     <section class="bg-white p-4 lg:p-18 ">
         <div class="py-6">
-            <h1 class="text-secondary font-sora font-semibold">Services</h1>
+            <h1 class="text-secondary font-sora font-semibold text-2xl">Services</h1>
         </div>
         <div class="flex flex-col gap-3 lg:flex-row">
             <div class="flex flex-col justify-center items-center bg-back p-5 py-3 rounded-xl lg:p-4 py-2">
@@ -116,7 +116,7 @@
             <div class="bg-linear-to-br from-secondary to-white rounded-xl relative px-4  max-w-full  pb-[15%] lg:w-[35%]">
                 <h1 class="text-white relative pt-4 text-2xl z-10">30% Off</h1>
                 <p class=" relative py-5 z-10">Discover a world of treats, toys and essentials handpicked for you</p>
-                <button class=" relative btn border-2 z-10 block "> Buy Now </button>
+                <button class=" relative btn   z-10 block "> Buy Now </button>
                 <div class="absolute bottom-0 right-0 max-w-full z-0 flex justify-end "><img src="c2-assets/vegetable-offer.png" alt="offer vegetables" class=" w-[90%]"></div>
             </div>
             
@@ -186,7 +186,7 @@
                         <div>$49.99</div>
                     </div>
                 </div>
-                <div class="bg-white rounded-xl flex justify-start items-center p-3 gap-2 ">
+                <div class="hidden bg-white rounded-xl lg:flex justify-start items-center p-3 gap-2 ">
                     <div class="bg-back flex items-center justify-center rounded-xl"><img src="c2-assets/potato.png" alt="onion"></div>
                     <div>
                         <div class="text-base"><i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i> 4.5</div>
@@ -201,7 +201,7 @@
 
     <!-- arrivals and offers -->
 
-    <section class="bg-white p-4 lg:p-18">
+    <section class="bg-white p-4 lg:p-18  ">
         <!-- arrival label -->
         <div class="py-6">
             <h1 class="text-secondary font-sora font-semibold text-2xl">Arrivals and offers</h1>
@@ -213,15 +213,15 @@
             <div class=" bg-[#115414] flex gap-4 items-center justify-center w-[100%] lg:w-[55%] pt-4 rounded-xl">
                 <div class="flex flex-col ">
                     <img src="c2-assets/dawat-logo.png" alt="dawat logo" class="w-[80%] pl-6">
-                    <button class="bg-[#63B76D] text-white m-4 px-4 py-2 rounded-lg">Cook Exotic dishes</button>
+                    <button class="bg-[#63B76D] text-white m-4 px-4 py-2 rounded-lg text-xs lg:text-base">Cook Exotic dishes</button>
                     <p class="text-white pl-6 text-2xl" >Up to <span class="font-semibold">20% Off</span> </p>
                 </div>
-                <div><img src="c2-assets/dawat-mock-up.png" alt="" class="w-[90%] "></div>
+                <div><img src="c2-assets/dawat-mock-up.png" alt="" class="w-full lg:w-[90%] "></div>
             </div>
             <div class=" bg-[#102861] flex gap-4 items-center justify-around pt-4 rounded-xl w-[100%] lg:w-[45%]">
                 <div class="flex flex-col ">
                     <img src="c2-assets/india-gate-logo.png" alt="india gate logo" class="w-[55%] pl-6">
-                    <button class="bg-[#2A4D97] text-white m-4 px-4 py-2 rounded-lg">World’s No.1 Rice</button>
+                    <button class="bg-[#2A4D97] text-white m-4 px-4 py-2 rounded-lg text-xs lg:text-base">World’s No.1 Rice</button>
                     <p class="text-white pl-6 text-2xl">Up to <span class="font-semibold">40% Off</span> </p>
                 </div>
                 <div><img src="c2-assets/india-gate-mock-up.png" alt="" class="w-[90%] "></div>
@@ -233,7 +233,59 @@
 
 
     </section>
-    <footer></footer>   
+
+    <!-- search card  -->
+    <div class="py-10 relative p-4 lg:p-18">
+        <!-- double colored background -->
+        <div class="w-full h-1/2 bg-white absolute -z-10  left-0 "></div>
+        <div class="w-full h-1/2 bg-secondary  -z-10 absolute bottom-0 left-0"></div>
+
+        <!-- card  -->
+
+        <div class=" bg-back rounded-xl flex flex-col  justify-center items-center gap-10 lg:gap-15 p-4    lg:flex-row">
+            <div><img src="c2-assets/vegetable-busket.png" alt="vegetable basket"class= " p-1 lg:p-3"></div>
+            <div class=" p-2 lg:p-10 pt-2.5 flex flex-col items-center justify-center lg:items-start ">
+                <hi class="text-3xl font-semibold p-3 text-center lg:text-start">Get Grocery News</hi>
+                <p class="text-xl p-3  text-center lg:text-start">Exclusive training tips, ticks, product deals and more.</p>
+                <div class="text-center lg:text-start  ">
+                    <input type="email" placeholder=" Enter Email" class="bg-white border-none rounded-md m-3 text-xl ">
+                <br>
+                <button class="bg-secondary py-1.5 px-4 rounded-xl m-3 text-xl ">Subscribe</button></div>
+            </div>
+
+        </div>
+    </div>    
+
+    <!-- footer  -->
+    <footer class="bg-secondary relative p-4 lg:p-18">
+
+        <div class="grid grid-cols-1 gap-3 lg:grid-cols-3 justify-center pb-[2%]  ">
+ 
+            <div class=" lg:text-start">
+                <img src="c2-assets/logo-footer.png" alt="logo"  >
+                <p class="text-white text-lg font-light lg:font-normal ">Discover a world of treats, toys, and essentials handpicked for your furry friends</p>
+            </div>
+            <div class=" lg:flex justify-center">   
+                <div class="flex flex-col justify-between text-lg text-white lg:px-4">
+                        <div>Product</div>
+                        <div>Services</div>
+                        <div>Contact Us</div>
+                </div>
+            </div> 
+            <div class="flex flex-col lg:justify-end lg:items-end">
+                <div >
+                    <div class="text-white">Follow Us</div>
+                    <div class="flex gap-5 lg:gap-4  ">
+                        <div><i class="fa-brands fa-facebook" style="color: rgb(255, 255, 255);"></i></div>
+                        <div><i class="fa-brands fa-instagram" style="color: rgb(255, 255, 255);"></i></div>
+                        <div><i class="fa-brands fa-linkedin" style="color: rgb(255, 255, 255);"></i></div>
+                        <div><i class="fa-brands fa-youtube" style="color: rgb(255, 255, 255);"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>   
 
      
    
